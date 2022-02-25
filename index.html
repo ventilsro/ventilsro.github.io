@@ -1,0 +1,113 @@
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font" />
+  <script  type="text/javascript" src="https://int3.sk/script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #82b74b;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .head, .footer {
+      background: #3e4444;
+      height: 80px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      padding-top: 50px;
+      font-size: 20px;
+    }
+
+    .head {
+      position: absolute;
+      top: 0;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 0;
+    }
+
+    .window {
+      min-width: 600px;
+      min-height: 280px;
+      width: 60%;
+      height: 20%;
+      background: white;
+      margin: auto;
+      position: absolute;
+      top: 0; left: 0; bottom: 0; right: 0;
+      border-radius: 20px;
+    }
+
+    .tree {
+      width: 600px;
+      height: 600px;
+      position: absolute;
+      background: url("tree.png");
+      background-repeat: no-repeat;
+      background-size: 600px 600px;
+      z-index: -1;
+      margin: 0 auto;
+      left: 0; right: 0;
+      margin-top: -500px;
+    }
+
+    .text {
+      height: 280px;
+      margin: auto;
+      position: absolute;
+      top: 0; bottom: 0; left: 0;
+      margin-left: 30px;
+      width: calc(100% - 370px);
+    }
+
+    .text p{
+      font-size: 18px;
+    }
+
+    .image {
+      width: 300px;
+      height: 300px;
+      border-radius: 100%;
+      background: url("image.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: auto;
+      position: absolute;
+      top: 0; bottom: 0; right: 0;
+      margin-right: 30px;
+    }
+
+  </style>
+  <title>VentilSRO</title>
+</head>
+<body>
+  <div class="head">
+    <div id="data_from_int">
+      Reklama
+    </div>
+  </div>
+
+  <div class="window">
+    <div class="tree">
+    </div>
+    <div class="text">
+      <h2>VentilSRO</h2>
+      <p>VentilSRO je developérsky projekt zameraný na čistenie prirody. Planétu máme iba jednu, takže by sme sa o ňu mali starať</p>
+      <h2>Kontakt</h2>
+      <h3>Email: ventilsro@ventilsro.github.io</h3>
+      <h3>Phone: +421 234 567 890</h3>
+    </div>
+    <div class="image">
+    </div>
+  </div>
+
+  <div class="footer">
+    Copyright 2022 by ventilsro.github.io. All Rights Reserved.
+  </div>
+</body>
+</html>
